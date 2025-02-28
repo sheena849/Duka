@@ -90,7 +90,6 @@ const SupplyRequests = () => {
         <table>
           <thead>
             <tr>
-              <th>Clerk Name</th> {/* Display Clerk Name */}
               <th>Product Name</th>
               <th>Quantity</th>
               <th>Status</th>
@@ -100,7 +99,6 @@ const SupplyRequests = () => {
           <tbody>
             {requests.map(request => (
               <tr key={request.id}>
-                <td>{request.clerk_name}</td> {/* Display the clerk's name */}
                 <td>{request.product_name}</td>
                 <td>{request.quantity_requested}</td>
                 <td>
@@ -125,4 +123,4 @@ const SupplyRequests = () => {
   );
 };
 
- export default SupplyRequests;
+export default SupplyRequests;
