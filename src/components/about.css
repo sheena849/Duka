@@ -1,0 +1,65 @@
+/* about.css */
+.about-wrapper {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 18px;
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.about-features-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.about-features-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #34495e;
+}
+
+.about-features-list li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.about-footer {
+  font-size: 16px;
+  color: #7f8c8d;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about-footer a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-footer a:hover {
+  text-decoration: underline;
+}
